@@ -1,0 +1,6 @@
+;!@Install@!UTF-8!
+Title="ETHZ Evidence Collector x64"
+InstallPath="%%S"
+RunProgram=".\ETHZ_EC_Winx64.cmd"
+GUIMode="1"
+;!@InstallEnd@!
