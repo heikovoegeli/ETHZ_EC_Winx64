@@ -54,6 +54,8 @@ Please manually download all 3rd party tools from their offical website, extract
 |https://github.com/google/rekall/releases/download/v1.3.1/winpmem_1.6.2.exe | winpmem_1_6_2.exe | ETHZ_EC_winpmem_1_6_2.exe |
 |https://f001.backblazeb2.com/file/EricZimmermanTools/AmcacheParser.zip | AmcacheParser.exe | ETHZ_EC_AmcacheParser.exe |
 
+**The name of winpmem does not only get the prefix "ETHZ_EC" but also changes the . to _ in the version range!**
+
 The renaming of the 3rd party tool makes them easier to distinguish while they run and leave traces in the collected data.
 
 After downloading, extracting, moving/renaming the 3rd party tools the content of the subfolder `.\ETHZ_EC_Winx64\Tools` should look like this:
@@ -65,18 +67,18 @@ C:\>dir C:\Build\ETHZ_EC_Winx64\Tools
 
  Directory of C:\Build\ETHZ_EC_Winx64\Tools
 
-14.06.2019  11:08    <DIR>          .
-14.06.2019  11:08    <DIR>          ..
-27.03.2019	13:32		  3’874’416 ETHZ_EC_AmcacheParser.exe
-31.05.2019  12:49           857’864 ETHZ_EC_Autoruns64.exe
-31.05.2019  12:54           761’096 ETHZ_EC_autorunsc64.exe
-19.09.2015  12:52            95’328 ETHZ_EC_DriverView.exe
-06.05.2019  14:57               563 ETHZ_EC_files_modified_in_last_3_days.ps1
-10.09.2018  23:36           171’728 ETHZ_EC_OpenedFilesView.exe
-28.06.2016  11:42           202’400 ETHZ_EC_pslist64.exe
-02.02.2018  18:12         1’299’968 ETHZ_EC_winpmem_1_6_2.exe
-12.01.2016  12:23           112’224 ETHZ_EC_WinPrefetchView.exe
-               9 File(s)      7’375’587 bytes
+14.06.2019  11:08    <DIR>          .  
+14.06.2019  11:08    <DIR>          ..  
+27.03.2019  13:32         3’874’416 ETHZ_EC_AmcacheParser.exe  
+31.05.2019  12:49           857’592 ETHZ_EC_Autoruns64.exe  
+31.05.2019  12:54           776’480 ETHZ_EC_autorunsc64.exe  
+19.09.2015  12:52            95’328 ETHZ_EC_DriverView.exe  
+06.05.2019  14:57               563 ETHZ_EC_files_modified_in_last_3_days.ps1  
+10.09.2018  23:36           171’728 ETHZ_EC_OpenedFilesView.exe  
+28.06.2016  11:42           202’400 ETHZ_EC_pslist64.exe  
+02.02.2018  18:12         1’299’968 ETHZ_EC_winpmem_1_6_2.exe  
+12.01.2016  12:23           112’224 ETHZ_EC_WinPrefetchView.exe  
+               9 File(s)      7’408’699 bytes
 ```
                
 Now you are ready to use the tool in it's core functionality from an administrative CMD prompt!
