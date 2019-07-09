@@ -51,7 +51,7 @@ Please manually download all 3rd party tools from their offical website, extract
 |https://www.nirsoft.net/utils/driverview-x64.zip |	Driverview.exe | ETHZ_EC_DriverView.exe |
 |https://www.nirsoft.net/utils/ofview-x64.zip | OpenedFilesView.exe | ETHZ_EC_OpenedFilesView.exe |
 |https://www.nirsoft.net/utils/winprefetchview-x64.zip | WinPrefetchView.exe | ETHZ_EC_WinPrefetchView.exe |
-|https://github.com/google/rekall/releases/download/v1.3.1/winpmem_1.6.2.exe | winpmem_1_6_2.exe | ETHZ_EC_winpmem_1_6_2.exe |
+|https://github.com/google/rekall/releases/download/v1.3.1/winpmem_1.6.2.exe | winpmem_1.6.2.exe | ETHZ_EC_winpmem_1_6_2.exe |
 |https://f001.backblazeb2.com/file/EricZimmermanTools/AmcacheParser.zip | AmcacheParser.exe | ETHZ_EC_AmcacheParser.exe |
 
 **The name of winpmem does not only get the prefix "ETHZ_EC" but also changes the . to _ in the version range!**
